@@ -1,0 +1,73 @@
+[General]
+#8 days = 11520 minutes
+#7 days = 10080 minutes
+#6 days = 8640 minutes
+#5 days = 7200 minutes
+#4 days = 5760 minutes
+#3 days = 4320 minutes
+#2 days = 2880 minutes
+#1 day = 1440 minutes
+ExpDurationMin: 11520
+OptoFrequency: 60
+OptoPW: 4
+OptoDelay: 0
+OptoDecay: 0
+MaxTimeOn: 50
+#StartTime: 1:00:13
+Baseline: Yes
+
+[DFM]
+ID: 1
+OptoLid: Twelve
+OptoFrequency: 0
+ProgramType: Linear
+Interval: 1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11520
+
+[DFM]
+ID: 2
+OptoLid: Twelve
+OptoFrequency: 0
+ProgramType: Linear
+Interval: 1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11520
+
+[DFM]
+ID: 8
+OptoLid: Twelve
+OptoFrequency: 60
+ProgramType: Linear
+Interval: 1,10,10,10,10,10,10,10,10,10,10,10,10,11520
+
+[DFM]
+ID: 11
+OptoLid: Twelve
+OptoFrequency: 60
+ProgramType: Linear
+Interval: 1,10,10,10,10,10,10,10,10,10,10,10,10,11520
+
+[DFM]
+ID: 16
+OptoLid: Twelve
+OptoFrequency: 60
+ProgramType: Linear
+Interval: 1,10,10,10,10,10,10,10,10,10,10,10,10,11520
+
+[DFM]
+ID: 17
+OptoLid: Twelve
+OptoFrequency: 60
+ProgramType: Linear
+Interval: 1,10,10,10,10,10,10,10,10,10,10,10,10,11520
+
+[DFM]
+ID: 18
+OptoLid: Twelve
+OptoFrequency: 60
+ProgramType: Linear
+Interval: 1,10,10,10,10,10,10,10,10,10,10,10,10,11520
+
+[DFM]
+ID: 19
+OptoLid: Twelve
+OptoFrequency: 60
+ProgramType: Linear
+Interval: 1,10,10,10,10,10,10,10,10,10,10,10,10,11520
