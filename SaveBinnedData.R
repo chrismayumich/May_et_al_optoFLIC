@@ -18,7 +18,7 @@ BinFeedingData.Licks.SaveResults <- function(dfm, bindfm, filename, binsize.minu
 }
 
 BinFeedingData.Licks.ResultsByWell <- function(dfm, bindfm, binsize.minutes){
-  starttime <- as.character(dfm$EventData$Time[1])
+  starttime <- as.character(dfm$LickData$Time[1])
   #We should have all the data, in columns Interval, Min, W1, W2, ...
   #Separate it out by well.
   wellNames <- names(bindfm)

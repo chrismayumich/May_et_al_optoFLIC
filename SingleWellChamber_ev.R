@@ -47,30 +47,30 @@ BinFeedingData.Licks<-function(dfm,binsize.min,range=c(0,0)){
 BinFeedingData.Well.Events<-function(dfm,well,binsize.min,range=c(0,0)){
   tmp<-FeedingData.Events(dfm,range)
   cname=paste("W",well,sep="")
-
+  
   tmp<-tmp[,c("Minutes",cname)]
   ## Remember that Event data include duration, but we aren't interested
   ## in that.  Set values >0 to 1.
   # tmp[tmp[,cname]>1,cname]<-1
-
+  
   m.min<-as.numeric(min(tmp$Minutes))
   m.max<-as.numeric(max(tmp$Minutes))
-
+  
   # y will be a vector of the start times for every [binsize] minutes, beginning with time approx 0
   y<-seq(m.min,m.max,by=binsize.min)
   if(y[length(y)]<m.max)
     y<-c(y,m.max)
-
+  
   theMinutes<-as.numeric(tmp$Minutes)
-
+  
   z<-cut(theMinutes,y,include.lowest=TRUE)
-
+  
   r.min<-aggregate(tmp$Minutes~z,FUN=mean)
   r.A<-aggregate(tmp[,cname]~z,FUN=nzmean)
   
   # r.min<-aggregate(tmp$Minutes~z,FUN=sum)
   # r.A<-aggregate(tmp[,cname]~z,FUN=sum)
-
+  
   results<-data.frame(r.min,r.A[,2])
   names(results)<-c("Interval","Min","MeanEventDur")
   results

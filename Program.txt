@@ -1,8 +1,8 @@
-Start Time: 7/26/2019 11:55:00 AM
-End Time: 7/28/2019 11:55:00 AM
-Duration: 2880min
+Start Time: 7/28/2019 10:58:00 AM
+End Time: 8/5/2019 10:58:00 AM
+Duration: 11520min
 Default OptoLid: None
-Default Opto Frequency: 0Hz
+Default Opto Frequency: 60Hz
 Default Opto Pulse Width: 4ms
 Default Opto Delay: 0ms
 Default Decay: 0ms
@@ -18,7 +18,7 @@ Opto Delay: 0ms
 Opto Decay: 0ms
 Max Time On: 50ms
 Program Type: Linear
-(7/26/2019 11:55:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2880.0min.
+(7/28/2019 10:58:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 11520.0min.
 
 ***DFM 2***
 OptoLid: Twelve
@@ -28,64 +28,64 @@ Opto Delay: 0ms
 Opto Decay: 0ms
 Max Time On: 50ms
 Program Type: Linear
-(7/26/2019 11:55:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2880.0min.
+(7/28/2019 10:58:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 11520.0min.
 
 ***DFM 8***
 OptoLid: Twelve
-Opto Frequency: 0Hz
+Opto Frequency: 60Hz
 Opto Pulse Width: 4ms
 Opto Delay: 0ms
 Opto Decay: 0ms
 Max Time On: 50ms
 Program Type: Linear
-(7/26/2019 11:55:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2880.0min.
+(7/28/2019 10:58:00 AM) Dark On, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11520.0min.
 
 ***DFM 11***
 OptoLid: Twelve
-Opto Frequency: 0Hz
+Opto Frequency: 60Hz
 Opto Pulse Width: 4ms
 Opto Delay: 0ms
 Opto Decay: 0ms
 Max Time On: 50ms
 Program Type: Linear
-(7/26/2019 11:55:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2880.0min.
+(7/28/2019 10:58:00 AM) Dark On, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11520.0min.
 
 ***DFM 16***
 OptoLid: Twelve
-Opto Frequency: 0Hz
+Opto Frequency: 60Hz
 Opto Pulse Width: 4ms
 Opto Delay: 0ms
 Opto Decay: 0ms
 Max Time On: 50ms
 Program Type: Linear
-(7/26/2019 11:55:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2880.0min.
+(7/28/2019 10:58:00 AM) Dark On, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11520.0min.
 
 ***DFM 17***
 OptoLid: Twelve
-Opto Frequency: 0Hz
+Opto Frequency: 60Hz
 Opto Pulse Width: 4ms
 Opto Delay: 0ms
 Opto Decay: 0ms
 Max Time On: 50ms
 Program Type: Linear
-(7/26/2019 11:55:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2880.0min.
+(7/28/2019 10:58:00 AM) Dark On, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11520.0min.
 
 ***DFM 18***
 OptoLid: Twelve
-Opto Frequency: 0Hz
+Opto Frequency: 60Hz
 Opto Pulse Width: 4ms
 Opto Delay: 0ms
 Opto Decay: 0ms
 Max Time On: 50ms
 Program Type: Linear
-(7/26/2019 11:55:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2880.0min.
+(7/28/2019 10:58:00 AM) Dark On, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11520.0min.
 
 ***DFM 19***
 OptoLid: Twelve
-Opto Frequency: 0Hz
+Opto Frequency: 60Hz
 Opto Pulse Width: 4ms
 Opto Delay: 0ms
 Opto Decay: 0ms
 Max Time On: 50ms
 Program Type: Linear
-(7/26/2019 11:55:00 AM) Dark On, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2880.0min.
+(7/28/2019 10:58:00 AM) Dark On, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11520.0min.
